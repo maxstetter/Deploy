@@ -131,15 +131,15 @@ function loadCarsFromServer()
 
 			//show cars data
 			var ogDiv = document.querySelector("#original-box");
-			ogDiv.style.display = "inline-block";
+			ogDiv.style.display = "grid";
 
 			//show button div
 			var buttonBox = document.querySelector("#button");
-			buttonBox.style.display = "inline-block";
+			buttonBox.style.display = "grid";
 
 			//show saved-cars div
 			var buttonBox = document.querySelector("#Saved-Cars");
-			buttonBox.style.display = "inline-block";
+			buttonBox.style.display = "grid";
 		}
 		response.json().then(function (dataFromServer)
 		{
