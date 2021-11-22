@@ -131,11 +131,11 @@ function loadCarsFromServer()
 
 			//show cars data
 			var ogDiv = document.querySelector("#original-box");
-			ogDiv.style.display = "grid";
+			ogDiv.style.display = "inline-block";
 
 			//show button div
 			var buttonBox = document.querySelector("#button");
-			buttonBox.style.display = "grid";
+			buttonBox.style.display = "inline-block";
 
 			//show saved-cars div
 			var buttonBox = document.querySelector("#Saved-Cars");
