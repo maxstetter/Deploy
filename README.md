@@ -1,4 +1,4 @@
-# Car Saver
+# Car Selector
 
 ## Resource
 
@@ -56,7 +56,3 @@ Login user member       | POST   | /sessions
 
 ## Password
 Passwords encrypted using bcrypt.
-
-
-
-# f21-deploy-stetnasty
